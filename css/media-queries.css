@@ -259,8 +259,29 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .landing-page__second-section-container {
-    grid-template-columns: 61% 33%;
+
+  .landing-page__main-paragraph {
+    margin: 9px 320px 52px;
   }
 
+  .landing-page__secondary-main-paragraph {
+    margin: 0 350px 69px;
+  }
+
+  .landing-page__second-section-container {
+    grid-template-columns: 61% 26%;
+  }
+
+  .landing-page__tertiary-main-paragraph {
+    margin: 0 350px 100px;
+  }
+
+  .landing-page__blacklist-text, .landing-page__snippets-text, .landing-page__preview-text {
+    margin-left: 65px;
+    margin-right: 65px;
+  }
+
+  .landing-page__quinary-main-paragraph {
+    margin: 0 350px 52px;
+  }
 }
